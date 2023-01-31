@@ -1,0 +1,34 @@
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/static/photos.jpeg) top no-repeat;
+}
+
+h1 {
+    color: white;
+}
+
+
+form {
+    text-align: center;
+}
+
+h1 { 
+    text-align:center;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.generate-button{
+    margin-top: 5%;
+
+}
+
+.content {
+
+    margin-top: 5%;
+    margin-bottom: 1%;
+}

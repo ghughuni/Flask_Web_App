@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>{{ joke }}</h1>
+    <form action="{{url_for('read_random_joke')}}" method="post">
+        <title> {{ title }} </title>
+        <div class="content">
+            <select name="chosen-categ" id="category">
+            {% for categ in categories %}
+                <option>{{ categ }}</option>
+            {% endfor %}
+        </select>
+        <button class="generate-button" type="submit">Generate</button>
+        </div>
+        
+    </form>
+
+
+{% endblock %}
