@@ -1,4 +1,4 @@
-# Chuck-Norris-Jokes_app
+# Chuck-Norris-Jokes_app (API)
 Chuck Norris Jokes_app (API)
 
 Running The App --> python main.py
